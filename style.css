@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Buttons code */
+.simple-button {
+    background-color: #78f;
+    color: white;
+    border: 0;
+    transition-duration: 100ms;
+    -webkit-transition-duration: 100ms;
+    font-size: 1vh;
+}
+
+.simple-button:hover {
+    background-color: white;
+    color: black;
+}
+
+.simple-button:active {
+    background-color: black;
+    color: white;
+}
+
+#main {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(40, 2.5%);
+    grid-auto-rows: 2.5vh;
+}
